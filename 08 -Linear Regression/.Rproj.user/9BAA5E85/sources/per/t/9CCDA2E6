@@ -1,0 +1,26 @@
+{
+    "id": "9CCDA2E6",
+    "path": "~/learning/R_Projects/Chapter 08 -Linear Regression/bestsubsets.r",
+    "project_path": "bestsubsets.r",
+    "type": "r_source",
+    "hash": "113860478",
+    "contents": "",
+    "dirty": false,
+    "created": 1787627735731.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "18,67",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1787274276,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1787274276,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,36 @@
+# Fills two gaps from Chapter 1: managing your working directory/packages,
+# and basic control flow (if/for), which the original files never use.
+
+# getwd() shows the folder R is currently reading/writing files from
+getwd()
+
+# setwd() changes that folder - this is why read.csv("file.csv") works
+# without a full path elsewhere in these scripts (uncomment and edit path to use)
+# setwd("C:/Users/YourName/Documents/RData")
+
+# install.packages() downloads a package one time; library() loads it each session
+# install.packages("dplyr")
+library(dplyr)
+
+# if/else: run different code depending on a condition
+sales <- 42000
+if (sales > 40000) {
+  print("Above target")
+} else {
+  print("Below target")
+}
+
+# for loop: repeat an action across a sequence of values
+region_sales <- c(12000, 18500, 9000, 21000)
+for (s in region_sales) {
+  if (s > 15000) {
+    print(paste(s, "exceeds the 15,000 threshold"))
+  }
+}
+
+# --- chart: visualize which regions passed the threshold used above ---
+region_names <- c("North", "South", "East", "West")
+bar_colors <- ifelse(region_sales > 15000, "forestgreen", "gray70")
+barplot(region_sales, names.arg = region_names, col = bar_colors,
+        main = "Region Sales vs. 15,000 Threshold", ylab = "Sales")
+abline(h = 15000, col = "red", lty = 2, lwd = 2)

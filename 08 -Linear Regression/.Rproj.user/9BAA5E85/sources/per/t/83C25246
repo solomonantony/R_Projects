@@ -1,0 +1,26 @@
+{
+    "id": "83C25246",
+    "path": "~/learning/R_Projects/Chapter 08 -Linear Regression/stepwise.r",
+    "project_path": "stepwise.r",
+    "type": "r_source",
+    "hash": "1517042792",
+    "contents": "",
+    "dirty": false,
+    "created": 1787627316896.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "18,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1787274276,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1787274276,
+    "read_only": false,
+    "read_only_alternatives": []
+}

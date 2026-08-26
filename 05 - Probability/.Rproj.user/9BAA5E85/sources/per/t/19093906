@@ -1,0 +1,26 @@
+{
+    "id": "19093906",
+    "path": "~/learning/R_Projects/Chapter 05 - Probability An Introduction to Modeling Uncertainty/continuousprob.r",
+    "project_path": "continuousprob.r",
+    "type": "r_source",
+    "hash": "3823698883",
+    "contents": "",
+    "dirty": false,
+    "created": 1787625499149.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "5,138",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1787274275,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1787274275,
+    "read_only": false,
+    "read_only_alternatives": []
+}

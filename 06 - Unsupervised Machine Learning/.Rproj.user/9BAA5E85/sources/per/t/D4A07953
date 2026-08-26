@@ -1,0 +1,26 @@
+{
+    "id": "D4A07953",
+    "path": "~/learning/R_Projects/Chapter 06 - Unsupervised Machine Learning/kmeans.r",
+    "project_path": "kmeans.r",
+    "type": "r_source",
+    "hash": "2759006104",
+    "contents": "",
+    "dirty": false,
+    "created": 1787626402287.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "25,64",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1787627220,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1787627220713,
+    "read_only": false,
+    "read_only_alternatives": []
+}

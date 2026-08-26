@@ -1,0 +1,26 @@
+{
+    "id": "B7C5781A",
+    "path": "~/learning/R_Projects/Chapter 04 - Data Wrangling Data Management and Data Cleaning Strategies/findingmissingvalues.R",
+    "project_path": "findingmissingvalues.R",
+    "type": "r_source",
+    "hash": "458079135",
+    "contents": "",
+    "dirty": false,
+    "created": 1787626117539.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "4,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1787626330,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1787626330657,
+    "read_only": false,
+    "read_only_alternatives": []
+}

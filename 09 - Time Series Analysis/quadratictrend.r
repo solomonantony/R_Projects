@@ -1,0 +1,12 @@
+# performing a quadratic trend forecast
+
+# read in data file from working directory into a data frame
+cholest_df <- read.csv("cholesterol_r.csv")
+View(cholest_df)
+
+# create a new variable that is the year squared
+Year_sqrd <- cholest_df$Year*cholest_df$Year
+
+# perform a linear regression for quadratic trend
+cholest_slr <- lm(Revenue ~ Year + Year_sqrd, data = cholest_df)
+summary(cholest_slr)

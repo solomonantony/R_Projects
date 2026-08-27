@@ -6,7 +6,7 @@ getwd()
 # setwd("C:/Users/YourName/Documents/RData")
 
 # install.packages() downloads a package one time; library() loads it each session
-# install.packages("dplyr")
+#install.packages("dplyr")
 library(dplyr)
 
 # if/else: run different code depending on a condition

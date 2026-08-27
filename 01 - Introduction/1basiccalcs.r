@@ -1,12 +1,13 @@
 #Shows how to assign values to variables in R and do basic mathematical calculations
 z <- 3
 z
-y <- -2
+2 -> y 
 y
 x <- c(1,2,6)
 x
 w <- 1:4
 w
+class(w)
 v <- z*y
 v
 u <- z/y
@@ -25,4 +26,12 @@ o
 n <- sqrt(w) #Note that sqrt(-1) produces the NaN error in R which stands for "Not a Number"
 n
 class(t)
+
+xx <- c(1,2,3,4)
+yy = 1:4
+xx == yy
+
+name <- "Solomon"
+name; class(name)
+
 

@@ -1,5 +1,10 @@
+getwd()
+setwd("C:/Users/santony/Documents/learning/R_Projects/01 - Introduction")
 suv_df <- read.csv("compact_suv_r.csv")  #Read in data from CSV file as a data frame
 View(suv_df)  #Displays the data frame
+suv_df[c(1), c(1,3)]
+
+suv_df[c(1,2),c(1,2)]
 str(suv_df) #Displays a summary of the data frame
 suv_df$Owner.Satisfaction <- ordered(suv_df$Owner.Satisfaction, levels=c("D","C","B","A"))  #Extracts column and changes variable type to ordered
 sub_df <- suv_df[c(1:5),c(1:3,6)]  #Creates a new data frame from first five rows and columns 1, 2, 3 and 6
@@ -11,3 +16,4 @@ slow_rows  #Displays extracted rows
 suv_df$Recommended <- NULL #Deletes original variable Recommended
 View(suv_df)  #Displays the updated data frame
 summary(suv_df)  #Displays a statistical summary of the data frame
+

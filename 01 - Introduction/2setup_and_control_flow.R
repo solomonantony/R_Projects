@@ -1,13 +1,8 @@
 # getwd() shows the folder R is currently reading/writing files from
 getwd()
 
-# setwd() changes that folder - this is why read.csv("file.csv") works
-# without a full path elsewhere in these scripts (uncomment and edit path to use)
-# setwd("C:/Users/YourName/Documents/RData")
+# setwd() changes that folder
 
-# install.packages() downloads a package one time; library() loads it each session
-#install.packages("dplyr")
-library(dplyr)
 
 # if/else: run different code depending on a condition
 sales <- 42000

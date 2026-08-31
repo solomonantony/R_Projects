@@ -1,7 +1,4 @@
-# getwd() shows the folder R is currently reading/writing files from
-getwd()
 
-# setwd() changes that folder
 
 
 # if/else: run different code depending on a condition

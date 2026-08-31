@@ -1,3 +1,6 @@
+# getwd() shows the folder R is currently reading/writing files from
+getwd()
+setwd("Learning/R_Projects/01 - Introduction")
 suv_df <- read.csv("compact_suv_r.csv") #Reads in the CSV file CompactSUV.csv into a data frame in R
 View(suv_df) #Displays the data frame
 str(suv_df) #Displays a summary of the columns in the data frame
@@ -13,3 +16,5 @@ class(row7) #Identifies class of data object row7
 col3 <- suv_df[,3] #Column 3 of suv_df is stored in data object named col3
 col3
 class(col3) #Identifies class of data object col3
+
+table(x=suv_df$Make, y=suv_df$Recommended)
